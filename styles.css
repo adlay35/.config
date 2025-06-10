@@ -38,8 +38,9 @@ body,
 
     width: calc(100% - 8px);
     margin-left: 4px;
-    margin-top: 5px;
+    margin-top: 4.5px;
     border-radius: 10px;
+    /* border: 1px solid #a1a1a1; */
 }
 
 #root {
@@ -48,13 +49,15 @@ body,
     /* border-bottom: 1px solid rgb(255 255 255 / 5%); */
     /* background: linear-gradient(rgb(0 0 0 / 50%), rgb(5 2 20 / 45%)); */
 
-    /* background: linear-gradient(rgb(0 0 0 / 70%), rgb(5 2 20 / 55%)); */
-    backdrop-filter: blur(10px);
+    background: linear-gradient(rgb(0 0 0 / 70%), rgb(5 2 20 / 55%));
+    /* backdrop-filter: blur(10px); */
+    border: 1px solid #a1a1a1;
 }
+
 
 .app {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr; 
     align-items: center;
     height: 100%;
     /* padding app */
